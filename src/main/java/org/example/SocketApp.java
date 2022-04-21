@@ -8,7 +8,7 @@ import java.net.ServerSocket;
 import java.net.Socket;
 
 public class SocketApp {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
 
         int port = 8080;
 
@@ -23,7 +23,7 @@ public class SocketApp {
             } catch (IOException e) {
                 e.printStackTrace();
             }
-            //serverSocket.close();
+
         }
     }
 }
